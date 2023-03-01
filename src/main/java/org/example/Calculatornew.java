@@ -12,10 +12,10 @@ public class Calculatornew {
         l.info("Enter the Second Number:");
         double second=sc.nextDouble();
 
-        Add c1=new Add(first,second);
-        Sub c2=new Sub(first,second);
-        Mul c3=new Mul(first,second);
-        Div c4=new Div(first,second);
+        Calculator c1=new Add(first,second);
+        Calculator c2=new Sub(first,second);
+        Calculator c3=new Mul(first,second);
+        Calculator c4=new Div(first,second);
         l.info("Enter the operator to which operations is going to perform");
         l.info("Addition-->+");
         l.info("Subtraction-->-");
